@@ -24,7 +24,7 @@ void insertionSort(char vetor[], int tamanho) {
 
 int main() {
     const int tamanho = 8;
-    char lista[] = "vitor";
+    char lista[] = "Kairon";
 
     insertionSort(lista, tamanho);
     print(lista, tamanho);
