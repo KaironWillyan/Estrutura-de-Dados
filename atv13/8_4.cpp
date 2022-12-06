@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Atividade em dupla feita por Kairon Willyan e Maria Vitória
+
 #define troca(a, b) {int x = a; a = b; b = x; }
 
 int seleciona(int v[], int n) {
