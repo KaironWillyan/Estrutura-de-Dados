@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+//Atividade em dupla feita por Kairon Willyan e Maria Vitória
+
+
 void insere(int x, int v[], int n) {
     while(n > 0 && x < v[n-1]) {
         v[n] = v[n-1];
