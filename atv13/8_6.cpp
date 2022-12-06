@@ -1,3 +1,6 @@
+//Atividade em dupla feita por Kairon Willyan e Maria Vitória
+
+
 #include <iostream>
 using namespace std;
 
@@ -6,14 +9,12 @@ bool linearSearch(int x, int v[], int n){
         return true;
     }
     n--;
-
     if(n == 0){
         return false;
     }
 
     return linearSearch(x, v, n);     
 }
-
 
 int main(){
     int v[] = {3, 2, 66, 8, -12, 9, 32, -5};
