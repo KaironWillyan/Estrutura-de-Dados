@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Atividade em dupla feita por Kairon Willyan e Maria Vitória
+
 bool binarySearch(int x, int v[], int n, int u){
     int m = (u+n)/2;
 
