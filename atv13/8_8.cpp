@@ -2,6 +2,8 @@
 #include<iostream>
 #define troca(a, b) {int x = a; a = b; b = x; }
 
+//Atividade em dupla feita por Kairon Willyan e Maria Vitória
+
 using namespace std;
 void quickSort(int vetor[10], int inicio, int fim);
 int main(){
